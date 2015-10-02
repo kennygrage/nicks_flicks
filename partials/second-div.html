@@ -7,9 +7,12 @@
       </li>
     </ul>
   </div>
+  <div id="no_list_of_reviews" ng-hide="reviews.length">
+    <p>No Reviews Yet!</p>
+  </div>
   <div id="current_review">
     <div ng-hide="reviews.length">
-      <p>Dude, you need to enter a review if you want people to come to your site. Please enter a review below.</p>
+      <p>Dude, you need to enter a review if you want people to come to your site.</p>
     </div>
   </div>
   <div id="create_new_review">

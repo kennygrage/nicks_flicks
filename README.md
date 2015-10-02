@@ -1,6 +1,6 @@
-# Freelancer Remake
+# Nick's Flicks
 
-##### Remake of Freelancer Website, 9/28/2015
+##### Nick's Flicks Movie Review Site, 10/02/2015
 
 #### By Kenny Grage
 

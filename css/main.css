@@ -38,7 +38,7 @@
   text-align: center;
 }
 
-#list_of_reviews {
+#list_of_reviews, #no_list_of_reviews {
   float: left;
   width: 33%;
   background-color: blue;
@@ -75,4 +75,5 @@
 #submit_button {
   display: block;
   align: left;
+  margin-bottom: 10px;
 }
