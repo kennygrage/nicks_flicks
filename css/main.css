@@ -37,3 +37,21 @@
 #home_text {
   text-align: center;
 }
+
+#list_of_reviews {
+  float: left;
+  width: 39%;
+  background-color: blue;
+}
+
+#current_review {
+  float: right;
+  width: 60%;
+  background-color: red;
+}
+
+#create_new_review {
+  float: right;
+  width: 60%;
+  background-color: green;
+}
