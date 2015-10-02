@@ -14,16 +14,19 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
     }
   }); //end $stateProvider 'home'
 
-  // $stateProvider.state('home.login', {
-  //   url: "/login",
-  //   views: {
-  //     'header_form': {
-  //       templateUrl: "partials/login.html",
-  //       controller: 'HeadersCtrl'
-  //     }
-  //   }
-  // }); //end $stateProvider 'login'
-  //
+  $stateProvider.state('second-div', {
+    url: "/second-div",
+    views: {
+      'header': {
+        templateUrl: "partials/header.html",
+        controller: 'HeadersCtrl'
+      },
+      'body': {
+        templateUrl: "partials/second-div.html"
+      }
+    }
+  }); //end $stateProvider 'login'
+
   // $stateProvider.state('home.sign-up', {
   //   url: "/sign-up",
   //   views: {
