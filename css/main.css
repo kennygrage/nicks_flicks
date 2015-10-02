@@ -40,18 +40,18 @@
 
 #list_of_reviews {
   float: left;
-  width: 39%;
+  width: 33%;
   background-color: blue;
 }
 
 #current_review {
   float: right;
-  width: 60%;
+  width: 67%;
   background-color: red;
 }
 
 #create_new_review {
   float: right;
-  width: 60%;
+  width: 67%;
   background-color: green;
 }
