@@ -11,7 +11,7 @@ This webpage is a movie review site: "Nick's Flix".
 ## Setup
 
 - clone this repository
-- start simple http server with python
+- start simple http server with python by going to the top folder of this repository and typing in: python -m SimpleHTTPServer 8000
 - navigate web browser to localhost:8000 to use app
 
 

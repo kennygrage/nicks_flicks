@@ -1,0 +1,26 @@
+#header_section {
+  border-bottom: 2px solid lightgrey;
+}
+
+#main_header {
+
+}
+
+#header_tagline {
+  color: grey;
+}
+
+#enter_button {
+  align: center;
+  background-color: #d3d3d3;
+  color: #444;
+  border: 1px solid #d3d3d3;
+  text-shadow: 0 -1px transparent;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#home_text {
+  text-align: center;
+}
