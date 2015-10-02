@@ -55,3 +55,24 @@
   width: 67%;
   background-color: green;
 }
+
+#input_textboxes {
+  width: 80%;
+}
+
+#review_name_input {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#content_input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#submit_button {
+  display: block;
+  align: left;
+}

@@ -1,4 +1,4 @@
-ReviewsFactory.factory('ReviewsFactory', function ReviewsFactory() {
+nicksFlix.factory('ReviewsFactory', function ReviewsFactory() {
   var factory = {};
   factory.reviews = [];
   factory.addReview = function() {
