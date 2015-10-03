@@ -22,33 +22,10 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
         controller: 'HeadersCtrl'
       },
       'body': {
-        templateUrl: "partials/second-div.html"
+        templateUrl: "partials/second-div.html",
+        controller: 'ReviewsCtrl'
       }
     }
   }); //end $stateProvider 'login'
-
-  // $stateProvider.state('home.sign-up', {
-  //   url: "/sign-up",
-  //   views: {
-  //     'header_form': {
-  //       templateUrl: "partials/sign-up.html",
-  //       controller: 'HeadersCtrl'
-  //     }
-  //   }
-  // }); //end $stateProvider 'sign-up'
-  //
-  // $stateProvider.state('post-a-project', {
-  //   url: "/post-a-project",
-  //   views: {
-  //     'header': {
-  //       templateUrl: "partials/header.html",
-  //       controller: 'HeadersCtrl'
-  //     },
-  //     'body': {
-  //       templateUrl: "partials/post-a-project.html"
-  //     }
-  //   }
-  // }); //end $stateProvider 'post-a-project'
-
 
 }); //end nicksFlix.config
