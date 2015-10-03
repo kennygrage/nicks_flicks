@@ -1,9 +1,9 @@
 <div id="second_div">
   <div id="list_of_reviews" ng-show="reviews.length">hi
     <ul>
-      <li ng-repeat="review in reviews">
-        <!-- <a ui-sref="reviews.review{{reviewId: review.id}}"> -->
-<a href="">{{ review.name }}</a>
+      <li ng-repeat="item in reviews">
+        <!-- <a ui-sref="second-div.specific_review({ reviewId: item.id })">{{ item.name }}</a> -->
+        <a ui-sref="second-div2({ reviewId: item.id })">{{ item.name }}</a>
       </li>
     </ul>
   </div>
@@ -13,6 +13,7 @@
   <div id="current_review">
     <div ng-show="reviews.length">
       We have some reviews.
+      <div ui-view="current_review"></div>
     </div>
     <div ng-hide="reviews.length">
       <p>Dude, you need to enter a review if you want people to come to your site.</p>
