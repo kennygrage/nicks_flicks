@@ -1,9 +1,9 @@
 <div id="second_div">
-  <div id="list_of_reviews" ng-show="reviews.length">hi
+  <div id="list_of_reviews" ng-show="reviews.length">
     <ul>
       <li ng-repeat="item in reviews">
         <!-- <a ui-sref="second-div.specific_review({ reviewId: item.id })">{{ item.name }}</a> -->
-        <a ui-sref="second-div2({ reviewId: item.id })">{{ item.name }}</a>
+        <a ui-sref="second-div.specific_review({ reviewId: item.id })">{{ item.name }}</a>
       </li>
     </ul>
   </div>

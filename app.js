@@ -28,7 +28,7 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
     }
   }); //end $stateProvider 'second-div'
 
-  $stateProvider.state('second-div2', {
+  $stateProvider.state('second-div.specific_review', {
     url: "/:reviewId",
     views: {
       'header': {
