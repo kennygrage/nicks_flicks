@@ -10,15 +10,22 @@
   <div id="no_list_of_reviews" ng-hide="reviews.length">
     <p>No Reviews Yet!</p>
   </div>
+
+<!-- THIS IS WHERE THE CURRENT REVIEW VIEW WILL GO -->
   <div id="current_review">
     <div ng-show="reviews.length">
       We have some reviews.
+
+<!-- THIS IS THE UI VIEW FOR APP.JS -->
       <div ui-view="current_review"></div>
+
     </div>
     <div ng-hide="reviews.length">
       <p>Dude, you need to enter a review if you want people to come to your site.</p>
     </div>
   </div>
+
+
   <div id="create_new_review">
     <h3>Create New Movie Review</h3>
     <form ng-submit="ReviewsFactory.addReview()" class="form-inline" role="form">

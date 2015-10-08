@@ -31,16 +31,8 @@ nicksFlix.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider.state('second-div.specific_review', {
     url: "/:reviewId",
     views: {
-      'header': {
-        templateUrl: "partials/header.html",
-        controller: 'HeadersCtrl'
-      },
-      'body': {
-        templateUrl: "partials/second-div",
-        controller: 'ReviewsCtrl'
-      },
       'current_review': {
-        templateUrl: "partials/second-div.specific_review.html",
+        templateUrl: "partials/review.html",
         controller: 'ReviewsCtrl'
       }
     }
